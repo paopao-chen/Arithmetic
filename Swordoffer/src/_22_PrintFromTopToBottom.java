@@ -6,7 +6,7 @@ import java.util.Queue;
  * @author Politeness Chen
  * @create 2019--08--17  21:39
  */
-public class _022_PrintFromTopToBottom {
+public class _22_PrintFromTopToBottom {
     public ArrayList<Integer> PrintFromTopToBottom(TreeNode root) {
         ArrayList<Integer> list = new ArrayList<>();
         Queue<TreeNode> queue = new LinkedList<>();

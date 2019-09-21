@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="027412b3-c18c-4024-bd9e-b4dbd1147324" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Swordoffer/src/_24_FindPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/Swordoffer/src/_24_FindPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cb/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Swordoffer/src/_022_PrintFromTopToBottom.java" beforeDir="false" afterPath="$PROJECT_DIR$/Swordoffer/src/_22_PrintFromTopToBottom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Swordoffer/src/_07_Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/Swordoffer/src/_07_Fibonacci.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,17 +32,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Swordoffer/src/_24_FindPath.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,10 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/src/_121_maxProfit.java" />
-        <option value="$PROJECT_DIR$/LeetCode/src/_746_minCostClimbingStairs.java" />
-        <option value="$PROJECT_DIR$/LeetCode/src/_198_rob.java" />
-        <option value="$PROJECT_DIR$/LeetCode/src/_338_countBits.java" />
         <option value="$PROJECT_DIR$/LeetCode/src/_64_minPathSum.java" />
         <option value="$PROJECT_DIR$/LeetCode/src/_392_isSubsequence.java" />
         <option value="$PROJECT_DIR$/LeetCode/src/_887_superEggDrop.java" />
@@ -102,7 +88,6 @@
         <option value="$PROJECT_DIR$/Swordoffer/src/_58_Print.java" />
         <option value="$PROJECT_DIR$/LeetCode/src/_122_maxProfit.java" />
         <option value="$PROJECT_DIR$/src/com/cb/thread/Single.java" />
-        <option value="$PROJECT_DIR$/exam/src/Main.java" />
         <option value="$PROJECT_DIR$/Swordoffer/src/_04_construct.java" />
         <option value="$PROJECT_DIR$/Swordoffer/src/_17_HasSubtree.java" />
         <option value="$PROJECT_DIR$/src/com/cb/Person.java" />
@@ -112,7 +97,12 @@
         <option value="$PROJECT_DIR$/Swordoffer/src/Demo.java" />
         <option value="$PROJECT_DIR$/src/com/cb/sort/MergeSort.java" />
         <option value="$PROJECT_DIR$/Swordoffer/src/_23_VerifySquenceOfBST.java" />
+        <option value="$PROJECT_DIR$/Swordoffer/src/_07_Fibonacci.java" />
         <option value="$PROJECT_DIR$/Swordoffer/src/_24_FindPath.java" />
+        <option value="$PROJECT_DIR$/src/com/cb/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/Swordoffer/src/_05_toStack.java" />
+        <option value="$PROJECT_DIR$/Swordoffer/src/_21_IsPopOrder.java" />
+        <option value="$PROJECT_DIR$/exam/src/Main.java" />
       </list>
     </option>
   </component>
@@ -130,10 +120,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="507" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="367" />
+    <option name="y" value="25" />
     <option name="width" value="1440" />
-    <option name="height" value="1089" />
+    <option name="height" value="1090" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -141,6 +132,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -149,22 +141,10 @@
               <item name="JavaSenior" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaSenior" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaSenior" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSenior" type="462c0819:PsiDirectoryNode" />
-              <item name="Swordoffer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSenior" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSenior" type="462c0819:PsiDirectoryNode" />
-              <item name="Swordoffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,7 +154,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568984557459" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569072550589" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -202,10 +182,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._23_VerifySquenceOfBST.t">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo" />
-      <module name="Swordoffer" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="exam" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -223,11 +203,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_04_construct.s" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuickSort.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSenior" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cb.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cb.sort" />
+      <option name="MAIN_CLASS_NAME" value="com.cb.sort.QuickSort" />
+      <option name="METHOD_NAME" value="t" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_07_Fibonacci.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Swordoffer" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="_04_construct" />
-      <option name="METHOD_NAME" value="s" />
+      <option name="MAIN_CLASS_NAME" value="_07_Fibonacci" />
+      <option name="METHOD_NAME" value="t" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -243,23 +239,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_32_PrintMinNumber.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Swordoffer" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="_32_PrintMinNumber" />
-      <option name="METHOD_NAME" value="t" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.QuickSort.t" />
+        <item itemvalue="JUnit._07_Fibonacci.t" />
         <item itemvalue="JUnit._23_VerifySquenceOfBST.t" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="JUnit._32_PrintMinNumber.t" />
-        <item itemvalue="JUnit._04_construct.s" />
       </list>
     </recent_temporary>
   </component>
@@ -410,44 +396,46 @@
       <workItem from="1568874165810" duration="7010000" />
       <workItem from="1568902816401" duration="135000" />
       <workItem from="1568962873642" duration="4281000" />
-      <workItem from="1568981461447" duration="3088000" />
+      <workItem from="1568981461447" duration="3905000" />
+      <workItem from="1569026748855" duration="3266000" />
+      <workItem from="1569064052876" duration="5481000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_04_construct_s - 2019.09.18 at 20h 10m 30s.xml">
-      <configuration name="_04_construct.s" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_32_PrintMinNumber_t - 2019.09.19 at 19h 34m 41s.xml">
-      <configuration name="_32_PrintMinNumber.t" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_23_VerifySquenceOfBST_t - 2019.09.20 at 20h 41m 48s.xml">
-      <configuration name="_23_VerifySquenceOfBST.t" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_23_VerifySquenceOfBST_t - 2019.09.20 at 20h 42m 11s.xml">
-      <configuration name="_23_VerifySquenceOfBST.t" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_23_VerifySquenceOfBST_t - 2019.09.20 at 20h 42m 51s.xml">
-      <configuration name="_23_VerifySquenceOfBST.t" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_23_VerifySquenceOfBST_t - 2019.09.20 at 20h 42m 59s.xml">
-      <configuration name="_23_VerifySquenceOfBST.t" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_23_VerifySquenceOfBST_t - 2019.09.20 at 20h 44m 20s.xml">
-      <configuration name="_23_VerifySquenceOfBST.t" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_23_VerifySquenceOfBST_t - 2019.09.20 at 20h 44m 30s.xml">
-      <configuration name="_23_VerifySquenceOfBST.t" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="_23_VerifySquenceOfBST_t - 2019.09.20 at 20h 44m 55s.xml">
       <configuration name="_23_VerifySquenceOfBST.t" configurationId="JUnit" />
     </history-entry>
     <history-entry file="_23_VerifySquenceOfBST_t - 2019.09.20 at 20h 45m 34s.xml">
       <configuration name="_23_VerifySquenceOfBST.t" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="_07_Fibonacci_t - 2019.09.21 at 11h 03m 16s.xml">
+      <configuration name="_07_Fibonacci.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuickSort_t - 2019.09.21 at 14h 37m 47s.xml">
+      <configuration name="QuickSort.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuickSort_t - 2019.09.21 at 14h 40m 36s.xml">
+      <configuration name="QuickSort.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuickSort_t - 2019.09.21 at 14h 41m 04s.xml">
+      <configuration name="QuickSort.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuickSort_t - 2019.09.21 at 14h 41m 21s.xml">
+      <configuration name="QuickSort.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuickSort_t - 2019.09.21 at 14h 42m 27s.xml">
+      <configuration name="QuickSort.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuickSort_t - 2019.09.21 at 14h 42m 42s.xml">
+      <configuration name="QuickSort.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuickSort_t - 2019.09.21 at 14h 42m 53s.xml">
+      <configuration name="QuickSort.t" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="406636000" />
+    <option name="totallyTimeSpent" value="416200000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -459,10 +447,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="294" y="20" width="1152" height="872" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20308311" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2833638" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -471,7 +458,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32258064" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32122904" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -481,7 +468,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.2942899" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.2932961" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24954297" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -510,38 +497,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/src/_102_levelOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="558" selection-start-line="558" selection-end-line="558" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cb/Season.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
-          <folding>
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1233#1234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cb/thread/Communication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cb/thread/MethodTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -740,7 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exam/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/Swordoffer/src/_11_NumberOf1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -834,31 +788,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Swordoffer/src/Demo.java" />
     <entry file="file://$PROJECT_DIR$/src/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/cb/sort/MergeSort.java">
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_07_Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_022_PrintFromTopToBottom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="304">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Swordoffer/src/_23_VerifySquenceOfBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="274">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Swordoffer/src/_24_FindPath.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cb/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cb/sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_22_PrintFromTopToBottom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_21_IsPopOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_05_toStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
+          <folding>
+            <element signature="e#130#139#0" expanded="true" />
+            <element signature="e#180#189#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
