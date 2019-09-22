@@ -6,11 +6,8 @@ public class _39_IsBalanced_Solution {
     public boolean IsBalanced_Solution(TreeNode root) {
         if (root == null)
             return true;
-        int left = TreeDepth(root.left);
-        int right = TreeDepth(root.right);
-        if (left - right > 1 || right - left > 1)
-            return false;
-        return IsBalanced_Solution(root.left) && IsBalanced_Solution(root.right);
+        return Math.abs(TreeDepth(root.left)-TreeDepth(root.right)) <=1 &&
+                IsBalanced_Solution(root.left) && IsBalanced_Solution(root.right);
     }
 
     public int TreeDepth(TreeNode root) {
@@ -18,7 +15,7 @@ public class _39_IsBalanced_Solution {
             return 0;
         int left = TreeDepth(root.left);
         int right = TreeDepth(root.right);
-        return Math.max(left,right);
+        return Math.max(left,right)+1;
     }
 
     public class TreeNode {
