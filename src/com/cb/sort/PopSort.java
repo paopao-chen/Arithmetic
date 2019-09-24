@@ -14,13 +14,16 @@ public class PopSort {
     private static void popSort(int[] num){
         int n = num.length;
         for (int i = 0; i < n; i++) {
+            boolean flag = false;
             for (int j = 1; j < n-i; j++) {
                 if (num[j-1] > num[j]) {
                     int temp = num[j-1];
                     num[j-1] = num[j];
                     num[j] = temp;
+                    flag = true;
                 }
             }
+            if (!flag) break;
         }
 
     }
