@@ -1,3 +1,4 @@
+
 /**
  * @author Politeness Chen
  * @create 2019--07--31  9:43
@@ -15,11 +16,12 @@ public class _206_reverseList {
         return pre;*/
 
         //递归实现
-        if (head == null || head.next == null) return head;
-        ListNode p = reverseList(head.next);
+        if (head == null || head.next == null) return head;  //临界条件
+        ListNode p = reverseList(head.next);  //递归
         head.next.next = head;
         head.next = null;
         return p;
+
     }
 
     public class ListNode {
