@@ -12,27 +12,22 @@ import java.util.List;
  */
 public class _02_addTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode listhead = new ListNode(0);
-        ListNode cur = listhead;
-        StringBuilder str1 = new StringBuilder();
-        StringBuilder str2 = new StringBuilder();
-        while (l1 != null) {
-            str1.append(l1.val);
-            l1 = l1.next;
-        }
-        while (l2 != null) {
-            str2.append(l2.val);
-            l2 = l2.next;
-        }
-        //溢出了...辣鸡题
-        long sum = Long.valueOf(str1.reverse().toString()) + Long.valueOf(str2.reverse().toString());
-        String s = String.valueOf(sum);
-        for (int i = s.length() - 1; i >= 0; i--) {
-            cur.next = new ListNode(Integer.valueOf(s.charAt(i) + ""));
-            System.out.println(Integer.valueOf(s.charAt(i) + ""));
+        ListNode root = new ListNode(0);
+        ListNode cur = root;
+        int carry = 0;
+        while (l1 != null || l2 != null || carry != 0) {
+            int val1 = l1 != null ? l1.val : 0;
+            int val2 = l2 != null ? l2.val : 0;
+            int sum = val1 + val2 + carry;
+            carry = sum / 10;
+            ListNode node = new ListNode(sum % 10);
+            cur.next = node;
             cur = cur.next;
+
+            if (l1 != null) l1 = l1.next;
+            if (l2 != null) l2 = l2.next;
         }
-        return listhead.next;
+        return root.next;
     }
 
     class ListNode {
