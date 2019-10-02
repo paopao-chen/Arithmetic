@@ -17,7 +17,7 @@ public class _04_construct {
             return null;
         TreeNode root = new TreeNode(pre[startPre]);
 
-        for (int i = startIn; i < endIn; i++) {
+        for (int i = startIn; i <= endIn; i++) {
             if (pre[startPre] == in[i]) {
                 root.left = reConstructBinaryTree(pre,startPre+1,i-startIn+startPre,in,startIn,i-1);
                 root.right = reConstructBinaryTree(pre,i-startIn+startPre+1,endPre,in,i+1,endIn);
