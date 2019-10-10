@@ -13,7 +13,7 @@ public class _21_IsPopOrder {
 
             while (stack.size() > 0 && stack.peek() == popA[j]) {
                 stack.pop();
-                j --;
+                j ++;
             }
         }
         return stack.size() == 0;

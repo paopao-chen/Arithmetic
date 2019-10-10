@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="027412b3-c18c-4024-bd9e-b4dbd1147324" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Swordoffer/src/_07_Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/Swordoffer/src/_07_Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Swordoffer/src/_21_IsPopOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Swordoffer/src/_21_IsPopOrder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,22 +33,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/src/_260_singleNumber.java">
+        <entry file="file://$PROJECT_DIR$/LeetCode/src/_199_rightSideView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="23" selection-start-line="6" selection-start-column="8" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="399">
+              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding>
-                <element signature="e#991#992#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1002#1003#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Swordoffer/src/_40_FindNumsAppearOnce.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-209">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -71,8 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/cb/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/cb/minStep.java" />
         <option value="$PROJECT_DIR$/src/com/cb/thread/MethodTest.java" />
         <option value="$PROJECT_DIR$/src/com/cb/Season.java" />
         <option value="$PROJECT_DIR$/Swordoffer/src/_59_Print.java" />
@@ -87,11 +79,9 @@
         <option value="$PROJECT_DIR$/Swordoffer/src/Demo.java" />
         <option value="$PROJECT_DIR$/src/com/cb/sort/MergeSort.java" />
         <option value="$PROJECT_DIR$/Swordoffer/src/_23_VerifySquenceOfBST.java" />
-        <option value="$PROJECT_DIR$/Swordoffer/src/_07_Fibonacci.java" />
         <option value="$PROJECT_DIR$/Swordoffer/src/_24_FindPath.java" />
         <option value="$PROJECT_DIR$/src/com/cb/sort/QuickSort.java" />
         <option value="$PROJECT_DIR$/Swordoffer/src/_05_toStack.java" />
-        <option value="$PROJECT_DIR$/Swordoffer/src/_21_IsPopOrder.java" />
         <option value="$PROJECT_DIR$/src/com/cb/sort/Demo.java" />
         <option value="$PROJECT_DIR$/Swordoffer/src/_46_Sum_Solution.java" />
         <option value="$PROJECT_DIR$/Swordoffer/src/_39_IsBalanced_Solution.java" />
@@ -122,6 +112,10 @@
         <option value="$PROJECT_DIR$/LeetCode/src/_394_decodeString.java" />
         <option value="$PROJECT_DIR$/LeetCode/src/_148_sortList.java" />
         <option value="$PROJECT_DIR$/LeetCode/src/_260_singleNumber.java" />
+        <option value="$PROJECT_DIR$/Swordoffer/src/_07_Fibonacci.java" />
+        <option value="$PROJECT_DIR$/Swordoffer/src/_21_IsPopOrder.java" />
+        <option value="$PROJECT_DIR$/LeetCode/src/_01_TwoNumber.java" />
+        <option value="$PROJECT_DIR$/LeetCode/src/_199_rightSideView.java" />
       </list>
     </option>
   </component>
@@ -139,11 +133,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="556" />
-    <option name="y" value="102" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="540" />
+    <option name="y" value="70" />
     <option name="width" value="1155" />
-    <option name="height" value="875" />
+    <option name="height" value="895" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -151,8 +145,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,7 +189,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570544039011" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570716028058" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -223,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._387_firstUniqChar.t">
+  <component name="RunManager" selected="JUnit._07_Fibonacci.t">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="exam" />
@@ -254,16 +248,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PopSort.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaSenior" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cb.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cb.sort" />
-      <option name="MAIN_CLASS_NAME" value="com.cb.sort.PopSort" />
+    <configuration name="_07_Fibonacci.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Swordoffer" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="_07_Fibonacci" />
       <option name="METHOD_NAME" value="t" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -282,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._07_Fibonacci.t" />
         <item itemvalue="JUnit._387_firstUniqChar.t" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="JUnit.InsertSort.t" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.PopSort.t" />
       </list>
     </recent_temporary>
   </component>
@@ -455,44 +443,48 @@
       <workItem from="1570111147686" duration="3052000" />
       <workItem from="1570366403833" duration="4650000" />
       <workItem from="1570451572064" duration="4693000" />
-      <workItem from="1570540111003" duration="2725000" />
+      <workItem from="1570540111003" duration="2934000" />
+      <workItem from="1570604900784" duration="4049000" />
+      <workItem from="1570673818241" duration="4201000" />
+      <workItem from="1570687945508" duration="7629000" />
+      <workItem from="1570714863372" duration="961000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PopSort_t - 2019.09.22 at 17h 55m 26s.xml">
-      <configuration name="PopSort.t" configurationId="JUnit" />
+    <history-entry file="_07_Fibonacci_t - 2019.10.09 at 15h 11m 40s.xml">
+      <configuration name="_07_Fibonacci.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PopSort_t - 2019.09.22 at 18h 04m 59s.xml">
-      <configuration name="PopSort.t" configurationId="JUnit" />
+    <history-entry file="_07_Fibonacci_t - 2019.10.09 at 15h 11m 46s.xml">
+      <configuration name="_07_Fibonacci.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PopSort_t - 2019.09.22 at 18h 40m 48s.xml">
-      <configuration name="PopSort.t" configurationId="JUnit" />
+    <history-entry file="_07_Fibonacci_t - 2019.10.09 at 15h 11m 54s.xml">
+      <configuration name="_07_Fibonacci.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PopSort_t - 2019.09.22 at 18h 41m 07s.xml">
-      <configuration name="PopSort.t" configurationId="JUnit" />
+    <history-entry file="_07_Fibonacci_t - 2019.10.09 at 15h 12m 03s.xml">
+      <configuration name="_07_Fibonacci.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PopSort_t - 2019.09.22 at 18h 41m 20s.xml">
-      <configuration name="PopSort.t" configurationId="JUnit" />
+    <history-entry file="_07_Fibonacci_t - 2019.10.09 at 18h 59m 34s.xml">
+      <configuration name="_07_Fibonacci.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InsertSort_t - 2019.09.24 at 17h 36m 12s.xml">
-      <configuration name="InsertSort.t" configurationId="JUnit" />
+    <history-entry file="_07_Fibonacci_t - 2019.10.09 at 19h 00m 06s.xml">
+      <configuration name="_07_Fibonacci.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_387_firstUniqChar_t - 2019.10.01 at 17h 54m 40s.xml">
-      <configuration name="_387_firstUniqChar.t" configurationId="JUnit" />
+    <history-entry file="_07_Fibonacci_t - 2019.10.09 at 19h 11m 22s.xml">
+      <configuration name="_07_Fibonacci.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_387_firstUniqChar_t - 2019.10.01 at 17h 56m 34s.xml">
-      <configuration name="_387_firstUniqChar.t" configurationId="JUnit" />
+    <history-entry file="_07_Fibonacci_t - 2019.10.09 at 19h 11m 54s.xml">
+      <configuration name="_07_Fibonacci.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_387_firstUniqChar_t - 2019.10.01 at 17h 58m 13s.xml">
-      <configuration name="_387_firstUniqChar.t" configurationId="JUnit" />
+    <history-entry file="_07_Fibonacci_t - 2019.10.09 at 19h 12m 06s.xml">
+      <configuration name="_07_Fibonacci.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_387_firstUniqChar_t - 2019.10.01 at 18h 00m 58s.xml">
-      <configuration name="_387_firstUniqChar.t" configurationId="JUnit" />
+    <history-entry file="_07_Fibonacci_t - 2019.10.09 at 19h 16m 05s.xml">
+      <configuration name="_07_Fibonacci.t" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="485606000" />
+    <option name="totallyTimeSpent" value="502655000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -504,10 +496,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="445" y="82" width="924" height="700" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22401847" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23525469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -516,7 +508,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3328446" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3240469" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -567,229 +559,28 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/src/_92_reverseBetween.java">
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_11_NumberOf1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        <state relative-caret-position="171">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/src/_206_reverseList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/src/_120_minimumTotal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/src/_703_KthLargest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/src/_87_partition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/src/_567_checkInclusion.java" />
-    <entry file="file://$PROJECT_DIR$/LeetCode/src/_02_addTwoNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/src/_03_lengthOfLongestSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_05_toStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
-          <folding>
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/src/_387_firstUniqChar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_59_Print.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_58_Print.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_57_isSymmetrical.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_55_deleteDuplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_53_Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_52_isNumeric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_47_Add.java">
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_12_Power.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_45_LastRemaining_Solution.java">
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_13_reOrderArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="292">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_43_LeftRotateString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_41_FindContinuousSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_36_FindFirstCommonNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_33_GetUglyNumber_Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_30_FindGreatestSumOfSubArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_29_GetLeastNumbers_Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_27_Permutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_26_Convert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_24_FindPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_23_VerifySquenceOfBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_21_IsPopOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_20_Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_18_Mirror.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_17_HasSubtree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_16_Merge.java">
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_14_FindKthToTail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -803,38 +594,192 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_13_reOrderArray.java">
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_17_HasSubtree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_09_JumpFloorII.java">
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_18_Mirror.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_20_Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_21_IsPopOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_22_PrintFromTopToBottom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_23_VerifySquenceOfBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_24_FindPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_26_Convert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_27_Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_28_MoreThanHalfNum_Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cb/sort/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cb/sort/PopSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cb/sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cb/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_29_GetLeastNumbers_Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_30_FindGreatestSumOfSubArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_07_Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_06_minNumberInRotateArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_03_printListFromTailToHead.java">
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_32_PrintMinNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_33_GetUglyNumber_Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_34_FirstNotRepeatingChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_35_InversePairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_36_FindFirstCommonNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_38_TreeDepth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_39_IsBalanced_Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_41_FindContinuousSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_40_FindNumsAppearOnce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_42_FindNumbersWithSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_43_LeftRotateString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -845,82 +790,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_12_Power.java">
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_45_LastRemaining_Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="361">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_04_construct.java">
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_48_StrToInt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="15" />
+        <state relative-caret-position="366">
+          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/src/_105_buildTree.java">
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_49_duplicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/src/_300_lengthOfLIS.java">
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_52_isNumeric.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/src/_394_decodeString.java">
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_54_EntryNodeOfLoop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cb/sort/MergeSort.java">
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_55_deleteDuplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/src/_148_sortList.java">
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_57_isSymmetrical.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_31_NumberOf1Between1AndN_Solution.java">
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_53_Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_11_NumberOf1.java">
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_59_Print.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="114">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_40_FindNumsAppearOnce.java">
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_58_Print.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
+        <state relative-caret-position="-33">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_61_KthNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cb/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_16_Merge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/src/_02_addTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/src/_01_TwoNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/src/_260_singleNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="23" selection-start-line="6" selection-start-column="8" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/src/_703_KthLargest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/src/_199_rightSideView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding>
-            <element signature="e#991#992#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
           </folding>
         </state>
       </provider>
