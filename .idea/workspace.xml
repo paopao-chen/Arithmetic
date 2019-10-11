@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="027412b3-c18c-4024-bd9e-b4dbd1147324" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Swordoffer/src/_07_Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/Swordoffer/src/_07_Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Swordoffer/src/_21_IsPopOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Swordoffer/src/_21_IsPopOrder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,13 +31,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/src/_199_rightSideView.java">
+        <entry file="file://$PROJECT_DIR$/LeetCode/src/_94_inorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1002#1003#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/cb/thread/MethodTest.java" />
         <option value="$PROJECT_DIR$/src/com/cb/Season.java" />
         <option value="$PROJECT_DIR$/Swordoffer/src/_59_Print.java" />
         <option value="$PROJECT_DIR$/Swordoffer/src/_58_Print.java" />
@@ -116,6 +114,7 @@
         <option value="$PROJECT_DIR$/Swordoffer/src/_21_IsPopOrder.java" />
         <option value="$PROJECT_DIR$/LeetCode/src/_01_TwoNumber.java" />
         <option value="$PROJECT_DIR$/LeetCode/src/_199_rightSideView.java" />
+        <option value="$PROJECT_DIR$/LeetCode/src/_94_inorderTraversal.java" />
       </list>
     </option>
   </component>
@@ -133,7 +132,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="540" />
     <option name="y" value="70" />
     <option name="width" value="1155" />
@@ -145,7 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -180,6 +178,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,7 +188,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570716028058" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570801930930" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -447,7 +446,8 @@
       <workItem from="1570604900784" duration="4049000" />
       <workItem from="1570673818241" duration="4201000" />
       <workItem from="1570687945508" duration="7629000" />
-      <workItem from="1570714863372" duration="961000" />
+      <workItem from="1570714863372" duration="1436000" />
+      <workItem from="1570800687319" duration="1469000" />
     </task>
     <servers />
   </component>
@@ -484,7 +484,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="502655000" />
+    <option name="totallyTimeSpent" value="504599000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -559,13 +559,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_11_NumberOf1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Swordoffer/src/_12_Power.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -911,11 +904,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/src/_199_rightSideView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="157">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/src/_94_inorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
           </folding>
         </state>
       </provider>
