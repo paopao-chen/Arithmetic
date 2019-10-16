@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="027412b3-c18c-4024-bd9e-b4dbd1147324" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,30 +30,23 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/src/_141_hasCycle.java">
+        <entry file="file://$PROJECT_DIR$/LeetCode/src/_283_moveZeroes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="385">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/src/_226_invertTree.java">
+        <entry file="file://$PROJECT_DIR$/LeetCode/src/_448_findDisappearedNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="31" column="20" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="31" selection-end-column="20" />
+            <state relative-caret-position="285">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Test.java" />
-        <option value="$PROJECT_DIR$/Swordoffer/src/_32_PrintMinNumber.java" />
         <option value="$PROJECT_DIR$/Swordoffer/src/_41_FindContinuousSequence.java" />
         <option value="$PROJECT_DIR$/Swordoffer/src/Demo.java" />
         <option value="$PROJECT_DIR$/src/com/cb/sort/MergeSort.java" />
@@ -129,6 +121,8 @@
         <option value="$PROJECT_DIR$/LeetCode/src/_771_numJewelsInStones.java" />
         <option value="$PROJECT_DIR$/LeetCode/src/_141_hasCycle.java" />
         <option value="$PROJECT_DIR$/LeetCode/src/_226_invertTree.java" />
+        <option value="$PROJECT_DIR$/LeetCode/src/_283_moveZeroes.java" />
+        <option value="$PROJECT_DIR$/LeetCode/src/_448_findDisappearedNumbers.java" />
       </list>
     </option>
   </component>
@@ -147,8 +141,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="715" />
-    <option name="y" value="95" />
+    <option name="x" value="945" />
+    <option name="y" value="107" />
     <option name="width" value="1155" />
     <option name="height" value="895" />
   </component>
@@ -158,8 +152,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,21 +170,12 @@
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaSenior" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSenior" type="462c0819:PsiDirectoryNode" />
-              <item name="Swordoffer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSenior" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSenior" type="462c0819:PsiDirectoryNode" />
-              <item name="Swordoffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,7 +185,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571143762599" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571230847760" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -230,14 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._151_reverseWords.t">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="exam" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit._283_moveZeroes.t">
     <configuration name="_07_Fibonacci.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Swordoffer" />
       <option name="PACKAGE_NAME" value="" />
@@ -268,6 +244,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_283_moveZeroes.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="_283_moveZeroes" />
+      <option name="METHOD_NAME" value="t" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_387_firstUniqChar.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
@@ -280,11 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._283_moveZeroes.t" />
         <item itemvalue="JUnit._151_reverseWords.t" />
         <item itemvalue="JUnit._179_largestNumber.s" />
         <item itemvalue="JUnit._07_Fibonacci.t" />
         <item itemvalue="JUnit._387_firstUniqChar.t" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -463,29 +449,12 @@
       <workItem from="1570945422198" duration="851000" />
       <workItem from="1570974314116" duration="857000" />
       <workItem from="1571054225542" duration="4028000" />
-      <workItem from="1571139981535" duration="3291000" />
+      <workItem from="1571139981535" duration="3464000" />
+      <workItem from="1571227923423" duration="2318000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_07_Fibonacci_t - 2019.10.09 at 19h 11m 54s.xml">
-      <configuration name="_07_Fibonacci.t" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_07_Fibonacci_t - 2019.10.09 at 19h 12m 06s.xml">
-      <configuration name="_07_Fibonacci.t" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_07_Fibonacci_t - 2019.10.09 at 19h 16m 05s.xml">
-      <configuration name="_07_Fibonacci.t" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_179_largestNumber_s - 2019.10.12 at 20h 15m 49s.xml">
-      <configuration name="_179_largestNumber.s" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_179_largestNumber_s - 2019.10.12 at 20h 18m 04s.xml">
-      <configuration name="_179_largestNumber.s" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_179_largestNumber_s - 2019.10.12 at 20h 18m 24s.xml">
-      <configuration name="_179_largestNumber.s" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="_179_largestNumber_s - 2019.10.12 at 20h 18m 41s.xml">
       <configuration name="_179_largestNumber.s" configurationId="JUnit" />
     </history-entry>
@@ -498,9 +467,27 @@
     <history-entry file="_151_reverseWords_t - 2019.10.14 at 20h 22m 09s.xml">
       <configuration name="_151_reverseWords.t" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="_283_moveZeroes_t - 2019.10.16 at 20h 16m 50s.xml">
+      <configuration name="_283_moveZeroes.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_283_moveZeroes_t - 2019.10.16 at 20h 17m 45s.xml">
+      <configuration name="_283_moveZeroes.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_283_moveZeroes_t - 2019.10.16 at 20h 17m 50s.xml">
+      <configuration name="_283_moveZeroes.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_283_moveZeroes_t - 2019.10.16 at 20h 18m 45s.xml">
+      <configuration name="_283_moveZeroes.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_283_moveZeroes_t - 2019.10.16 at 20h 19m 08s.xml">
+      <configuration name="_283_moveZeroes.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_283_moveZeroes_t - 2019.10.16 at 20h 19m 52s.xml">
+      <configuration name="_283_moveZeroes.t" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="516445000" />
+    <option name="totallyTimeSpent" value="518936000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -512,10 +499,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="572" y="76" width="924" height="716" extended-state="0" />
+    <frame x="756" y="86" width="924" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19284065" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19745958" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -524,7 +511,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.39442816" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.39285713" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -575,20 +562,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/cb/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_29_GetLeastNumbers_Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Swordoffer/src/_30_FindGreatestSumOfSubArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -922,6 +895,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_04_construct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/src/_226_invertTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/src/_141_hasCycle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -934,21 +926,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_04_construct.java">
+    <entry file="file://$PROJECT_DIR$/LeetCode/src/_283_moveZeroes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="385">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/src/_226_invertTree.java">
+    <entry file="file://$PROJECT_DIR$/LeetCode/src/_448_findDisappearedNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="31" column="20" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="285">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
           </folding>
         </state>
       </provider>
