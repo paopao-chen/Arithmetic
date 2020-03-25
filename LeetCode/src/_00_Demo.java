@@ -50,9 +50,13 @@ public class _00_Demo {
 
     }
 
-
     @Test
     public void t() {
-        System.out.println(Integer.MIN_VALUE-1);
+        String a = null;
+        if (a == "swa") {
+            System.out.println(1);
+        } else {
+            System.out.println(2);
+        }
     }
 }

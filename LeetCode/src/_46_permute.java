@@ -47,7 +47,7 @@ public class _46_permute {
         int len = nums.length;
         List<List<Integer>> res = new ArrayList<>();
         if (len == 0)
-            return res; 
+            return res;
         boolean[] visited = new boolean[len];
         permution(nums,visited,0,len,new Stack<Integer>(),res);
         return res;
