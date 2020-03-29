@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="027412b3-c18c-4024-bd9e-b4dbd1147324" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Swordoffer/src/_leetcode_53.java" beforeDir="false" afterPath="$PROJECT_DIR$/Swordoffer/src/_leetcode_53.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cb/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cb/sort/QuickSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +32,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_18.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_40.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+            <state relative-caret-position="785">
+              <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_11.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -52,7 +63,13 @@
     <findStrings>
       <find>hashCode</find>
       <find>length</find>
+      <find>i</find>
+      <find>lo</find>
+      <find>hi</find>
     </findStrings>
+    <replaceStrings>
+      <replace>high</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,9 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/src/_206_reverseList.java" />
-        <option value="$PROJECT_DIR$/LeetCode/src/_92_reverseBetween.java" />
-        <option value="$PROJECT_DIR$/LeetCode/src/_120_minimumTotal.java" />
         <option value="$PROJECT_DIR$/LeetCode/src/_87_partition.java" />
         <option value="$PROJECT_DIR$/LeetCode/src/_703_KthLargest.java" />
         <option value="$PROJECT_DIR$/LeetCode/src/_02_addTwoNumbers.java" />
@@ -108,9 +122,12 @@
         <option value="$PROJECT_DIR$/Swordoffer/src/_leetcode_15.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/exam/src/Demo.java" />
-        <option value="$PROJECT_DIR$/Swordoffer/src/_leetcode_53.java" />
         <option value="$PROJECT_DIR$/Swordoffer/src/_leetcode_04.java" />
         <option value="$PROJECT_DIR$/Swordoffer/src/_leetcode_18.java" />
+        <option value="$PROJECT_DIR$/Swordoffer/src/_leetcode_40.java" />
+        <option value="$PROJECT_DIR$/src/com/cb/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/Swordoffer/src/_leetcode_53.java" />
+        <option value="$PROJECT_DIR$/Swordoffer/src/_leetcode_11.java" />
       </list>
     </option>
   </component>
@@ -128,9 +145,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="742" />
-    <option name="y" value="131" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="196" />
+    <option name="y" value="90" />
     <option name="width" value="1155" />
     <option name="height" value="895" />
   </component>
@@ -142,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -165,7 +183,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,7 +192,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585410083437" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585490065360" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -203,31 +220,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._leetcode_15.t">
+  <component name="RunManager" selected="JUnit.QuickSort.t">
+    <configuration name="QuickSort.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSenior" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cb.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cb.sort" />
+      <option name="MAIN_CLASS_NAME" value="com.cb.sort.QuickSort" />
+      <option name="METHOD_NAME" value="t" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_00_Demo.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="_00_Demo" />
-      <option name="METHOD_NAME" value="t" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_151_reverseWords.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="_151_reverseWords" />
-      <option name="METHOD_NAME" value="t" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_283_moveZeroes.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="_283_moveZeroes" />
       <option name="METHOD_NAME" value="t" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -254,13 +267,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_leetcode_40.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Swordoffer" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="_leetcode_40" />
+      <option name="METHOD_NAME" value="t" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QuickSort.t" />
+        <item itemvalue="JUnit._leetcode_40.t" />
         <item itemvalue="JUnit._leetcode_15.t" />
         <item itemvalue="JUnit._00_Demo.t" />
         <item itemvalue="JUnit._581_findUnsortedSubarray.t" />
-        <item itemvalue="JUnit._283_moveZeroes.t" />
-        <item itemvalue="JUnit._151_reverseWords.t" />
       </list>
     </recent_temporary>
   </component>
@@ -462,44 +485,46 @@
       <workItem from="1585207111757" duration="743000" />
       <workItem from="1585274655848" duration="1479000" />
       <workItem from="1585314069105" duration="4448000" />
-      <workItem from="1585408543798" duration="1313000" />
+      <workItem from="1585408543798" duration="2142000" />
+      <workItem from="1585451624486" duration="8767000" />
+      <workItem from="1585474191718" duration="4937000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_581_findUnsortedSubarray_t - 2019.10.17 at 17h 00m 40s.xml">
-      <configuration name="_581_findUnsortedSubarray.t" configurationId="JUnit" />
+    <history-entry file="_leetcode_40_t - 2020.03.29 at 13h 36m 37s.xml">
+      <configuration name="_leetcode_40.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_581_findUnsortedSubarray_t - 2019.10.17 at 17h 00m 51s.xml">
-      <configuration name="_581_findUnsortedSubarray.t" configurationId="JUnit" />
+    <history-entry file="_leetcode_40_t - 2020.03.29 at 13h 39m 41s.xml">
+      <configuration name="_leetcode_40.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_581_findUnsortedSubarray_t - 2019.10.17 at 17h 01m 03s.xml">
-      <configuration name="_581_findUnsortedSubarray.t" configurationId="JUnit" />
+    <history-entry file="_leetcode_40_t - 2020.03.29 at 13h 55m 37s.xml">
+      <configuration name="_leetcode_40.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_581_findUnsortedSubarray_t - 2019.10.17 at 17h 03m 50s.xml">
-      <configuration name="_581_findUnsortedSubarray.t" configurationId="JUnit" />
+    <history-entry file="_leetcode_40_t - 2020.03.29 at 13h 56m 26s.xml">
+      <configuration name="_leetcode_40.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_581_findUnsortedSubarray_t - 2019.10.17 at 17h 03m 58s.xml">
-      <configuration name="_581_findUnsortedSubarray.t" configurationId="JUnit" />
+    <history-entry file="_leetcode_40_t - 2020.03.29 at 13h 56m 34s.xml">
+      <configuration name="_leetcode_40.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_00_Demo_t - 2019.10.24 at 12h 23m 04s.xml">
-      <configuration name="_00_Demo.t" configurationId="JUnit" />
+    <history-entry file="_leetcode_40_t - 2020.03.29 at 13h 57m 37s.xml">
+      <configuration name="_leetcode_40.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_00_Demo_t - 2019.11.27 at 22h 09m 17s.xml">
-      <configuration name="_00_Demo.t" configurationId="JUnit" />
+    <history-entry file="_leetcode_40_t - 2020.03.29 at 14h 06m 20s.xml">
+      <configuration name="_leetcode_40.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_00_Demo_t - 2020.01.18 at 16h 28m 08s.xml">
-      <configuration name="_00_Demo.t" configurationId="JUnit" />
+    <history-entry file="_leetcode_40_t - 2020.03.29 at 14h 06m 30s.xml">
+      <configuration name="_leetcode_40.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_leetcode_15_t - 2020.03.25 at 20h 56m 47s.xml">
-      <configuration name="_leetcode_15.t" configurationId="JUnit" />
+    <history-entry file="QuickSort_t - 2020.03.29 at 14h 07m 43s.xml">
+      <configuration name="QuickSort.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_leetcode_15_t - 2020.03.25 at 20h 57m 01s.xml">
-      <configuration name="_leetcode_15.t" configurationId="JUnit" />
+    <history-entry file="QuickSort_t - 2020.03.29 at 14h 07m 56s.xml">
+      <configuration name="QuickSort.t" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="565396000" />
+    <option name="totallyTimeSpent" value="579929000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -511,10 +536,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="594" y="105" width="924" height="716" extended-state="0" />
+    <frame x="-206" y="63" width="924" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34411085" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24798928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24942264" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -523,7 +548,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.39149562" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.32111436" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -574,35 +599,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/cb/sort/InsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cb/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cb/ListenerTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/cb/View.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
-          <folding>
-            <element signature="e#25032#25033#0" expanded="true" />
-            <element signature="e#25078#25079#0" expanded="true" />
-            <element signature="e#121460#121461#0" expanded="true" />
-            <element signature="e#121514#121515#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/src/_01_TwoNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
@@ -701,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_39.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Swordoffer/src/_28_MoreThanHalfNum_Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -785,13 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_14_FindKthToTail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Swordoffer/src/_44_ReverseSentence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -844,63 +826,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_21.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_06.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_15.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_22.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exam/src/Demo.java" />
     <entry file="file://$PROJECT_DIR$/Swordoffer/src/_18_Mirror.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_53.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -918,10 +848,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_14_FindKthToTail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_61_KthNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cb/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_06.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_15.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_18.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+        <state relative-caret-position="285">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_21.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_22.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_39.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_29_GetLeastNumbers_Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_53.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_40.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swordoffer/src/_leetcode_11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>

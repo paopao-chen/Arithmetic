@@ -47,7 +47,7 @@ public class QuickSort {
 
     @Test
     public void t(){
-        int[] num = {5,2,1,3,4};
+        int[] num = {0,0,1,2,4,2,2,3,1,4,8};
         quickSort(num,0,num.length-1);
         for (int i = 0; i < num.length; i++) {
             System.out.println(num[i]);

@@ -20,7 +20,7 @@ public class _leetcode_53 {
         if (nums.length < 0) return -1;
         int left = 0, right = nums.length - 1;
         while (left <= right) {
-            int mid = (left + right) / 2;
+            int mid = (left + right) / 2; // >> 1 用位运算求中间的值
             if (mid == nums[mid]) {
                 left = mid + 1;
             } else {
